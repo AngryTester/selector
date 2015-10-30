@@ -1,0 +1,22 @@
+{
+	"name": "Selector",
+	"description": "Show Xpath",
+	"version": "1.0",
+	"permissions": [
+	    "activeTab"
+	 ],
+	 "background": {
+       "scripts": ["select.js"]
+	 },
+	"content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["jquery-1.3.2.min.js"]
+    }
+  ],
+	 "browser_action": {
+		"default_icon": "logo.png"
+			},
+	 "manifest_version": 2
+}
+
