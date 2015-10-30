@@ -1,2 +1,2 @@
 # selector
-small tool for locating web elements in test automation.
+chrome extension for helping locate web elements in test automation.
